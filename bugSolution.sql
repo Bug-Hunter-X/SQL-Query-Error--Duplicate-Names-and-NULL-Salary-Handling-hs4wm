@@ -1,0 +1,1 @@
+SELECT employee_id, name, salary FROM employees WHERE department = 'Sales' AND salary > 100000 AND salary IS NOT NULL; --Corrected query using employee_id and handling NULLs
